@@ -304,9 +304,9 @@ If "albums"
 		OutputTo "ALBUMGENRES"
 		SayRest
 
-		json_select "trackCount"
-		OutputTo "TOTALTRACKS"
-		SayNextNumber
+#		json_select "trackCount"
+#		OutputTo "TOTALTRACKS"
+#		SayNextNumber
 
 		json_select "releaseDate"
 		OutputTo "YEAR"
